@@ -1,0 +1,21 @@
+.bk-brd{
+    background-color: yellow;
+    border: 3px solid red;
+}
+
+.bl-dt-brd{
+  border: 3px dotted blue;  
+}
+
+.org-dt-brd{
+    border: 3px dotted orange;  
+  }
+
+  .big-btn{
+    font-size: larger;
+  }
+
+  #btn-ok{
+    background-color: antiquewhite;
+    font-size: larger;
+  }
