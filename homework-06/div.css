@@ -1,0 +1,21 @@
+.text-block  p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.paragraph-container {
+    text-align: justify;
+}
+
+.dashed-button{
+    border: dashed;
+    border-width: 3px;
+    color: blue;
+
+}
+
+#square-box  {
+    color: red;
+    width: 150px;
+    height: 150px;
+}

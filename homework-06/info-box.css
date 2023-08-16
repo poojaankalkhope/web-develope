@@ -1,0 +1,13 @@
+/* border, background color,padding */
+.brd-bk-pd {
+    border: 3px dotted blue;
+    background-color: green;
+    background-clip: padding-box;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
+
+ 
+
+ 
