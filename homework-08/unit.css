@@ -1,0 +1,48 @@
+html,body {
+    width: 100vw;
+    height: 100vh; 
+ }
+ 
+ main{
+     width: 100%;
+     height: 100%;
+ }
+
+ .box-px{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    
+ }
+
+ .box-inch{
+    width: 10in;
+    height: 2in;
+    background-color:antiquewhite;
+    border: 2px solid black;
+    
+ }
+
+ .box-vmvh{
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+    border: 2px solid black;
+    
+ }
+
+ .box-em{
+    width: 10em;
+    height: 10em;
+    background-color:black;
+    border: 2px solid white;
+    
+ }
+
+ .box-rem{
+    width: 10rem;
+    height: 10rem;
+    background-color:blue;
+    border: 2px solid black;
+ }
