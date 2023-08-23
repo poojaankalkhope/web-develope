@@ -1,0 +1,62 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    position: relative;
+    overflow: auto;
+    
+    background-color: blue;
+}
+
+.box-1{
+    width: 10%;
+    height: 10%;
+    background-color: darkgoldenrod;
+    position: static;
+}
+
+.box-2{
+    width: 10%;
+    height: 10%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.box-3{
+    width: 10%;
+    height: 10%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.box-4{
+    width: 10%;
+    height: 10%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.box-5{
+    width: 10%;
+    height: 10%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+
+
+
