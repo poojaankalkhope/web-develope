@@ -14,15 +14,15 @@ html,body{
 }
 
 .box-1{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 25px;
     background-color: darkgoldenrod;
     position: static;
 }
 
 .box-2{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 25px;
     background-color: darkgoldenrod;
     position: absolute;
     bottom:0px;
@@ -30,8 +30,8 @@ html,body{
 }
 
 .box-3{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 25px;
     background-color: darkgoldenrod;
     position: absolute;
     top: 0px;
@@ -39,8 +39,8 @@ html,body{
 }
 
 .box-4{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 25px;
     background-color: darkgoldenrod;
     position: absolute;
     bottom: 0px;
@@ -48,12 +48,15 @@ html,body{
 }
 
 .box-5{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 25px;
     background-color: darkgoldenrod;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0
 }
 
 
