@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Myfont';
+    src:url('./magical_script_2/Magical\ Script.ttf') format(truetype);
+   /* url('pk-hl.ttf') format('truetype');*/
+}
+
+.p1{
+    font-family: 'Myfont', 'Courier New', Courier, monospace ;
+    font-size: 2em;
+    color: red;
+}
+@font-face {
+    font-family: 'Newfont';
+    src: url('./sherwood_forest/Sherwood\ Forest.ttf') format(truetype);
+}
+
+.p2{
+    font-family: 'Newfont', 'Courier New', Courier, monospace ;
+    font-size: 2em;
+    color:blue;
+}
+
+@font-face {
+    font-family: 'Letterfont';
+    src: url('./letter_blocks/Letter\ Blocks\ Demo.otf') format(truetype);
+}
+
+.p3{
+    font-family: 'Letterfont', 'Courier New', Courier, monospace ;
+    font-size: 2em;
+    color:palevioletred;
+}
