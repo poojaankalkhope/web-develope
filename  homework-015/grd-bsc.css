@@ -1,0 +1,56 @@
+html,body{
+    width: 90vw;
+    height: 90vh;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    border: 1px solid;
+    grid-auto-rows: 100px;
+    
+    grid-template-areas: 
+    "header header header header header header"
+    "menu menu main main rigth right "
+    "menu menu main main footer footer"
+    
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid black;
+    
+    color: white;
+}
+
+.grid-item-1{
+    grid-area: header;
+    background-color: red;
+}
+
+.grid-item-2{
+    grid-area: menu;
+    background-color: blueviolet;
+}
+
+.grid-item-3{
+    grid-area: main;
+    background-color: blue;
+}
+
+.grid-item-4{
+    grid-area: right;
+    background-color: purple;
+}
+
+.grid-item-5{
+    grid-area: footer;
+    background-color: aqua;
+}
