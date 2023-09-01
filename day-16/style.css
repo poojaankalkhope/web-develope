@@ -1,0 +1,175 @@
+html,
+body {
+    width: 90vw;
+    height: 90vh;
+}
+
+header 1{
+    width: 100%;
+    height: 25px;
+
+}
+.header2{
+    width: 100%;
+    height: 50Px;
+}
+
+nav {
+    height: 25px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bck-btn {
+    width: 20px;
+    height: 20px;
+
+}
+
+.hom-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.srch-btn {
+    width: 80%;
+    height: 20px;
+}
+
+.ham-btn {
+    width: 20px;
+    height: 20px;
+}
+
+ 
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.headline{
+    margin-left: 20px;
+    align-items: center;
+
+}
+.container1 {
+
+    display: flex;
+     
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+    
+}
+
+.srh-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.fc-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.tw-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.inst-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.tag {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}
+
+.logo {
+     display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: end;
+    align-content: end;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.image{
+display:flex;
+grid-template-rows: auto ;
+gap: 10px;
+align-items: start;
+justify-content:center;
+
+}
+
+.image1{
+    width: 40%;
+    height: 85%;
+    background-image:  url('image1.jpeg');
+    background-size:contain;
+    
+    
+     
+}
+.font{
+    width:80% ;
+    height: 100%;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: end;
+    align-content: end;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    font-size: large;
+    background-color: white;
+}
+.p1{
+    align-items: center;
+    
+}
+.italic1{
+     color: red;
+     font-size: small;
+     
+    }
+
+.italic2{
+font-size: small; 
+font-weight: bold;
+align-items: start;
+}
+.image2{
+    width: 60%;
+    height: 85%;
+    background-image: url('image\ 2.JPG');
+     background-size: cover;
+    
+    
+     
+}
