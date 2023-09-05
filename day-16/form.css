@@ -1,0 +1,143 @@
+html, body {
+    width: 90vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.good-section {
+    margin-bottom: 16px;
+}
+.form-header {
+    width: 100%;
+    display: flex;
+
+    /* border: 1px solid; */
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.hdr-brd-btm {
+    padding-bottom: 8px;
+    border-bottom: 1px solid gainsboro;
+}
+.header-address {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.acc-info-form {
+    display: flex;
+    justify-content: space-between;
+}
+.acc-info-col {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Do it with grid-template-areas */
+.personal-info-form {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 50px;
+    gap:16px;
+
+    grid-template-areas: 
+    "a a a a a a a a"
+    "b b b b c c c c"
+    "d d d d d d d d"
+    "e e e e e e e e"
+    "f f f f g g g g"
+    "h h h h i i i i";
+}
+.row1 {
+    grid-area: a;
+    border: 1px solid red;
+}
+
+.row2 { 
+    grid-area: b;
+    border: 1px solid red;
+}
+
+.row3 {
+    grid-area: c;
+    border: 1px solid red;
+}
+
+.row4 {
+    grid-area: d;
+    border: 1px solid red;
+}
+
+.row5 {
+     grid-area: e;
+    border: 1px solid red;
+}
+
+.row6 {
+     grid-area: f;
+    border: 1px solid red;
+}
+
+.row7 {
+    grid-area: g;
+    border: 1px solid red;
+
+}
+
+.row8 {
+    grid-area: h;
+    border: 1px solid red;
+}
+.row9 {
+    grid-area: i;
+    border: 1px solid red;
+}
+
+.bnk-ac{
+    display: flex;
+    justify-content: space-between;
+     margin: 8px;
+     height: 50px;
+    width: 50px;
+    gap: 20px;
+}
+.occupation{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 50px;
+    gap:16px;
+    grid-template-areas: 
+    "b b b b c c c c";
+}
+
+a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: green;
+}
+a:active {
+    color: hotpink;
+}
+
+a:focus {
+    background-color: red;
+}
+
+
+    
