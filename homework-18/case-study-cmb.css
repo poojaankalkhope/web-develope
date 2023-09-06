@@ -1,0 +1,87 @@
+ html, body {
+    width: 90vw;
+    height: 90vh;
+ }
+ 
+ main {
+     width: 100%;
+     height: 100%;
+ }
+ .container{
+    display: grid;
+     grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: repeat(8, 5vw);
+     gap: 8px;
+     justify-content: center;
+     align-content: center;
+     margin-top: 8px;
+ }
+
+ figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+ }
+ main > figure{
+    position: relative;
+     overflow: hidden;
+     border: 1px solid black;
+     box-shadow: 0 0 5px red;
+     transition: transform 0.3s ease-in-out;
+ }
+ main > figure:hover {
+    background-color: aquamarine;
+    transform: scale(1.8);
+    border: none;
+}
+main > :nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+main > :nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+main > :nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+main > :nth-child(4) {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start:8 ;
+    grid-row-end:9 ;
+}
+main > :nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start:7;
+    grid-row-end: 9;
+}
+main > :nth-child(6) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+}
+main > :nth-child(7) {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start:3;
+    grid-row-end:6 ;
+}
+main > :nth-child(8) {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+
