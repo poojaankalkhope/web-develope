@@ -1,5 +1,4 @@
-html,
-body {
+html,body {
     width: 95vw;
     height: 90vh;
 }
@@ -19,9 +18,9 @@ nav {
     /* background-color: aqua;
     border: 1px solid black;*/
     margin-top: 10px;
-    margin-left: 80%;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
+    gap: 20px;
 }
 
 a {
@@ -50,32 +49,51 @@ a {
 }
 
 .img2 {
+    width: 100%;
+    height: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: start;
 }
 
 .srch {
     display: flex;
-    width: 800px;
-    height: 40px;
-    border-radius: 25px;
-    border: 1px solid black;
+    font-size: medium;
     justify-content: space-around;
     align-items: center;
 }
 
 .in-srch {
-    width: 700px;
+     
+    width: 800px;
     height: 40px;
-
+    border-radius: 25px;
+    border:1px solid grey;
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 65px;
+}
+.srch-logo
+{
+   width: 20px;
+    height: 20px;
+     position: absolute;
+    margin: auto;
+    left: 270px;
+}
+.mic-lens{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    right: 320px;
+    gap: 10px;
 }
 
 .info {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 16px;
 }
 
@@ -89,7 +107,7 @@ a {
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5pxpx;
 }
 .utube{
     display: flex;
@@ -107,7 +125,7 @@ a {
 .img4 {
     width: 50px;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .list{
@@ -116,46 +134,54 @@ a {
     gap: 10px;
     list-style-type: none;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 footer{
-    width: 100%;
-    height: 20%;
-    background-color: grey;
+    height: 10%;
+   background-color:#f2f2f2;
+   bottom: 0;
+
 
 }
 .ftr-1{
-    width: 100%;
     height: 50%;
-    border-bottom: 1px solid whitesmoke;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-    margin-right: 20px;
-
-    
+      border-bottom: 1px solid white;
+   padding-left: 40px;
+    display:flex;
+    align-items: center;
 }
 .ftr-2{
-    width: 100%;
     height: 50%;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftr-list1{
+    width: 60%;
     display: flex;
-   
-
-
+    align-items: center;
+    justify-content:space-between
 }
 .ftr1{
+    width: 60%;
     display: flex;
     list-style-type:none;
-    align-items:start;
-    justify-content:start;
-    gap: 10px;
+    align-items: center;
+   /* justify-content: space-between;*/
+    gap: 20px;
+}
+.ftr-list2{
+    width: 40%;
+    display: flex;
+    justify-content:right;
+    padding-right: 20px;
 }
 .ftr2{
+    width: 40%;
     display: flex;
     list-style-type:none;
-    justify-content:end;
-    align-items:end;
-    gap: 10px;
-    margin-left: 20%;
+    justify-content:space-between;
+    align-items:center
 }
  
