@@ -39,7 +39,7 @@ h1{
     box-shadow: 0 2px 4px gray;
 }
 .log-in{
-    width: 100%;
+    width: 400px;
     height: 40px;
     display: flex;
     justify-content:center;
@@ -66,6 +66,7 @@ h1{
     font-size: larger;
     font-weight:bold;
     color: white;
+    border: none;
     
 }
 .link{
@@ -87,9 +88,16 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*: 1px solid black;*/
 }
- p ::before{
-    border
- }
+.divider {
+    margin: 15px 0;
+    position: relative;
+}
+
+span {
+    background-color: white;
+    padding: 0 10px;
+    color: #8e8e8e;
+}
 .new-ac{
     width: 200px;;
     height: 45px;
