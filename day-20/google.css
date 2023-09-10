@@ -100,11 +100,13 @@ a {
     align-items: center;
     margin-top: 30px;
     gap: 16px;
+
 }
 
 .info-box {
     width: 150px;
     height: 30px;
+    /* border: none; */
 }
 
 .info2 {
