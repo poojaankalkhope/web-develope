@@ -1,0 +1,106 @@
+html,body{
+    width: 90vw;
+    height: 90vh;
+    background-color: #f0f2f5;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    width: 100%;
+    font-size:50px;
+    color:#1877f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info-box{
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    bottom: 5%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px gray;
+}
+.log-in{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items:start;
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+.input-1{
+    width: 90%;
+    height: 40px;
+    border:1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    font-size: 1em;
+}
+.input-3{
+    width: 380px;;
+    height: 45px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight:bold;
+    color: white;
+    
+}
+.link{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.ac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frgt-ac{
+     width:100%;
+    font-size:15px;
+    color: #1877f2;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*: 1px solid black;*/
+}
+ p ::before{
+    border
+ }
+.new-ac{
+    width: 200px;;
+    height: 45px;
+    background-color:#42b72a;
+    border-radius: 5px;
+     border: none;
+
+}
+.link-1{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight:bold;
+}
