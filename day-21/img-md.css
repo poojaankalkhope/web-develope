@@ -1,0 +1,24 @@
+body{
+    background-color:bisque;
+}
+
+@media screen and (max-width:767px) {
+    body{ background-image: url(download\ \(2\).jpeg);
+        visibility: visible;
+        object-fit: contain;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body{ background-image: url(download.jpeg);
+    visibility: visible;   
+     object-fit: contain;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body{ background-image: url(download\ \(1\).jpeg);
+    visibility:visible;
+    object-fit:contain;
+    }
+}
