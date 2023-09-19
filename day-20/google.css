@@ -62,36 +62,35 @@ a {
 }
 
 .srch {
+    width: 600px;
     display: flex;
     font-size: medium;
     justify-content: space-around;
     align-items: center;
+     border:1px solid black;
+    border-radius: 25px;
 }
 
 .in-srch {
      
     width: 600px;
     height: 40px;
-    border-radius: 25px;
-    border:1px solid grey;
+     border:none; 
     font-size: large;
-    padding-left: 40px;
-    padding-right: 65px;
 }
 .srch-logo
 {
    width: 20px;
     height: 20px;
-     position: absolute;
     margin: auto;
-    left: 370px;
+    padding-left: 10px;
+    
 }
 .mic-lens{
     display: flex;
-    position: absolute;
     margin: auto;
-    right: 420px;
-    gap: 10px;
+     gap: 10px;
+     padding-right: 10px;
 }
 
 .info {
