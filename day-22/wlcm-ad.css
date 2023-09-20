@@ -168,7 +168,7 @@ a{
     justify-content: center;
    align-items: center;
     border: 1px solid black;
-    border-collapse:collapse;
+    
 }
 .grid-item1{
     grid-area: a;
