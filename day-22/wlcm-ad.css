@@ -4,7 +4,7 @@ html,body{
 }
 nav{
     width: 100%;
-    height: 45px;
+    height:5%;
     border: solid black;
     display: flex;
     justify-content: space-between;
@@ -15,18 +15,20 @@ nav{
     list-style-type: circle; 
 }
 .wcl-ad{
-    width:200px;
+    width:17%;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    
 }
 .dt-icon{
-    width: 200px;
+    width:17%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: none;
     margin-right: 20px;
+    
    
 }
 .span-1{
@@ -38,8 +40,8 @@ h2{
     
 }
 .img{
-    width:40px;
-    height: 40px;
+    width:20%;
+    height: 50%;
 }
 main{
     width: 100%;
@@ -49,7 +51,7 @@ main{
     display: flex;
 }
 .menu{
-    width:25%;
+    width:20%;
     height: 100%;
     background-color:rgba(152, 148, 148, 0.3);
     display: flex;
@@ -60,31 +62,48 @@ main{
     
 }
 button{
-    width: 250px;
-    height: 50px;
+    width:85%;
+    height:10%;
     margin-right: 20px;
     color: white;
     background-color: gray;
     border: none;
     font-size: large;
     text-align: start;
+     
+
 }
 .bl{
     margin-top: 35px;
 }
 
-.dropdown{
-    display: inline-block;
-    cursor: pointer;
+.dropdown-c{
+    display:flex;
+    justify-content:space-between;
     color:white;
     background-color: black;
 }
-.dropdown-1{
-    display:inline-block;
+ 
+.dropdown-c1{
+    width:10%;
+    height:40%;
     background-color:black;
     color: white;
     border: none;
-    margin-right: 50px;
+    font-size:20px;
+}
+.dropdown-a{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+}
+.dropdown-a1{
+    width:10%;
+    height:40%;
+    background-color:rgba(152, 148, 148, 0.3);
+    color: white;
+    border: none;
+    font-size:20px;
 }
 .info{
     width:70%;
@@ -96,34 +115,36 @@ button{
 }
 .head{
     width:100%;
-    height: 100px;
+    height:20%;
     display:flex;
     justify-content:space-between;
     align-items: center;
-     
 }
 h1{
+    width: 50%;
     width: 50%;
     font-size:45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:500;
 }
 input{
-    width: 150px;
-    height: 40px;
+    width:40%;
+    height: 60%;
     font-size:small;
     background-color: white;
     color:black;
     border:1px solid  gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
 }
 .nw-cu{
-    width:300px;
+    width:35%;
+    height: 50%;
     align-items: center; 
     display: flex;
     justify-content: space-between;
-
 }
+
 .span-2{
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
@@ -143,7 +164,7 @@ a{
     width: 100%;
     height:100%;
     display:grid;
-    grid-template-columns: 100px auto auto auto auto;
+    grid-template-columns: 10% auto auto auto auto;
     align-items: center;
     grid-template-areas: 
     "a b c d e"
@@ -152,11 +173,12 @@ a{
     "p q r s t";
 }
 .img-1{
-    width: 35px;
-    height: 30px;
+    width:15%;
+    height:40%;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    
 }
 .tbl-hd{
     font-weight: bold;
