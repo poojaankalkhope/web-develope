@@ -1,0 +1,227 @@
+html,body{
+    width: 90vw;
+    height: 90vh;
+}
+nav{
+    width: 100%;
+    height:5%;
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+}
+ .list {
+    display:flex;
+    gap: 10px;
+    list-style-type: circle; 
+}
+.wcl-ad{
+    width:17%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.dt-icon{
+    width:17%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin-right: 20px;
+   
+}
+.span-1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h2{
+    font-weight: normal;
+    
+}
+.img{
+    width:20%;
+    height:50%;
+}
+main{
+    width: 100%;
+    height: 95%;
+}
+.container{
+    display: flex;
+}
+.menu{
+    width:25%;
+    height: 100%;
+    background-color:rgba(152, 148, 148, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    gap: 5px;
+    
+}
+button{
+    width:85%;
+    height:10% ;
+    margin-right: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: large;
+    text-align: start;
+}
+.bl{
+    margin-top: 35px;
+}
+.dropdown-b{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    background-color: black;
+}
+.dropdown-b1{
+    width:10%;
+    height:40%;
+    background-color:black;
+    color: white;
+    border: none;
+    font-size:20px;
+}
+
+.dropdown-c{
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    
+}
+.dropdown-c1{
+    width:10%;
+    height:40%;
+    background-color:rgba(152, 148, 148, 0.3);
+    color: white;
+    font-size:20px;
+    border: none;
+}
+ 
+.dropdown-a{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+}
+.dropdown-a1{
+    width:10%;
+    height:40%;
+    background-color:rgba(152, 148, 148, 0.3);
+    color: white;
+    border: none;
+    font-size:20px;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+.head{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    width: 100%;
+    height: 50%;
+    font-size:45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+}
+.nw-bl{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.nw-bl-1{
+    color: black;
+}
+.table-1{
+    width:97%;
+    height: 25%;
+    display: grid;
+    grid-template-columns:20% 20% 20% ;
+    justify-content:start;
+    align-items:end;
+}
+.grid-item{
+    width:80%;
+    height: 65%;
+    border: 1px solid gray;
+    gap: 20%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.srch-bt{
+         width:80%;
+        height: 65%;
+        gap: 20%;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        margin-bottom: 5px;
+}
+.srch-bt-1{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-2{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 8% 12% 18% 22% 17% 11% 11%;
+    justify-content: center;
+    align-items: end;
+    
+}
+.grid-item-2{
+    width:85%;
+    height:40%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.table-3{
+    width: 100%;
+    height:35%;
+    display:grid;
+    grid-template-columns:8% 12% 18% 22% 18% 11% 11%;
+    align-items: center;
+    border: 1.5px solid gray;
+}
+.grid-item-3{
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid gray;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.title{
+    background-color:rgba(152, 148, 148, 0.3);
+}
+.tx-un{
+    text-decoration: underline;
+}
