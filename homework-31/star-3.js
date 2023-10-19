@@ -1,15 +1,18 @@
+
 for(let i=1 ; i<=5; i++)
 {
+    let str = '';
+    
     for(let j=1; j<=5; j++) 
     {
+        
         if(j<=i) {
-            console.log(`*`)
+            str += '*';
         }
         else {
-            console.log(" ")
+            str += ' ';
         }
         
     }
-    
-    console.log('\n') 
+    console.log(str);
 }
