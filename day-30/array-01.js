@@ -41,7 +41,7 @@ console.log(`${poppedFruit} is popped.`)
 const shiftedFruit =fruits.shift() // at the start
 console.log(fruits)
 console.log(`${shiftedFruit} is shifted.`)
-const splicedFruit =fruits.spliced(4,1) 
+const splicedFruit =fruits.splice(4,2) 
 console.log(fruits)
 console.log(`${splicedFruit} is spliced.`)
 
