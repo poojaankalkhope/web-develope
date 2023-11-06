@@ -55,3 +55,6 @@ console.table(matMul2(mat1, mat2))
 console.log(matMul1(mat1, mat2))
 
 
+
+
+
