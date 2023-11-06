@@ -53,3 +53,5 @@ const matMul1 = (m1, m2) => {
 console.table(matMul3(mat1, mat2))
 console.table(matMul2(mat1, mat2))
 console.log(matMul1(mat1, mat2))
+
+
