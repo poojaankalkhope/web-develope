@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    
 }
 .dt-icon{
     width:17%;
@@ -27,30 +28,30 @@ nav{
     align-items: center;
     border: none;
     margin-right: 20px;
+    
    
 }
 .span-1{
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
 }
-
 h2{
     font-weight: normal;
     
 }
 .img{
     width:20%;
-    height:50%;
+    height: 50%;
 }
 main{
     width: 100%;
-    height: 95%;
+    height: 100%;
 }
 .container{
     display: flex;
 }
 .menu{
-    width:25%;
+    width:20%;
     height: 100%;
     background-color:rgba(152, 148, 148, 0.3);
     display: flex;
@@ -62,32 +63,34 @@ main{
 }
 button{
     width:85%;
-    height:10% ;
+    height:10%;
     margin-right: 20px;
     color: white;
     background-color: gray;
     border: none;
     font-size: large;
     text-align: start;
+     
+
 }
 .bl{
     margin-top: 35px;
 }
 
 .dropdown-c{
-    display: flex;
+    display:flex;
     justify-content:space-between;
     color:white;
     background-color: black;
 }
+ 
 .dropdown-c1{
     width:10%;
     height:40%;
     background-color:black;
     color: white;
-    font-size:20px;
     border: none;
-    
+    font-size:1.25rem;
 }
 .dropdown-a{
     display:flex;
@@ -100,88 +103,87 @@ button{
     background-color:rgba(152, 148, 148, 0.3);
     color: white;
     border: none;
-    font-size:20px;
+    font-size:1.25rem;
 }
 .info{
-    width: 100%;
-    height: 100%;
+    width:70%;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    justify-content: start;
+    align-items: start;
+    margin-left: 30px;
+}
+.head{
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
 }
 h1{
+    width: 50%;
+    width: 50%;
+    font-size:2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+}
+input{
+    width:40%;
+    height: 60%;
+    font-size:small;
+    background-color: white;
+    color:black;
+    border:1px solid  gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+}
+.nw-cu{
+    width:35%;
+    height: 50%;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.span-2{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.str{
     width: 100%;
     height: 50%;
-    font-size:45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:bold;
+    display: flex;
     
 }
-.info-box1{
-    width:30%;
-    height:40%;
-    display: grid;
-    grid-template-columns: 80px 80px;
-    grid-template-areas: 
-    "a b"
-    "c d"
-    "e f"
-    "g h";
-    justify-content: space-between;
-     
-}
-.grid-item-1{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content:start;
-   align-items:start;
-}
-.grid-item-01{
-    grid-area: a;
-}
-.grid-item-02{
-    grid-area: b;
-}
-.grid-item-3{
-    grid-area: c;
-}
-.grid-item-4{
-    grid-area: d;
-}
-.grid-item-5{
-    grid-area: e;
+a{
+    color: black;
 }
  
-.grid-item-6{
-    grid-area: f;
-}
-.grid-item-7{
-    grid-area:g;
-}
-.grid-item-8{
-    grid-area:h;
-}
-.bt-line{
-   width: 100%;
-   margin-bottom: 10px ;
 
-}
 .table{
     width: 100%;
-    height:40%;
+    height:100%;
     display:grid;
-    grid-template-columns:  9% auto auto auto auto;
+    grid-template-columns: 10% auto auto auto 30%;
     align-items: center;
     grid-template-areas: 
     "a b c d e"
     "f g h i j"
     "k l m n o"
     "p q r s t";
-   
-    
 }
-.grid-item-2{
+.img-1{
+    width:40%;
+    height:70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.tbl-hd{
+    font-weight: bold;
+}
+.grid-item{
     width: 100%;
     height: 100%;
     display: flex;
@@ -205,6 +207,7 @@ h1{
 .grid-item5{
     grid-area: e;
 }
+ 
 .grid-item6{
     grid-area: f;
 }
@@ -250,18 +253,5 @@ h1{
 .grid-item20{
     grid-area: t;
 }
-.tabl-hd{
-    background-color: gray;
-    font-weight: bold;
-}
-a{
-    width: 100%;
-    height:100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    color: black;
-}
  
-
  
