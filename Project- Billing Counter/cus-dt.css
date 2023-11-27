@@ -136,6 +136,7 @@ h1{
     display: flex;
     justify-content:start;
    align-items:start;
+   
 }
 .grid-item-01{
     grid-area: a;
@@ -250,11 +251,14 @@ h1{
 .grid-item20{
     grid-area: t;
 }
+.lnk{
+    color: black;
+}
 .tabl-hd{
     background-color: gray;
     font-weight: bold;
 }
-a{
+.ft{
     width: 100%;
     height:100%;
     display: flex;
