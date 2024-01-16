@@ -33,3 +33,5 @@ var phone = '123456' // 👈 let respect scope (skip the clurly brace )
 }
 
 console.log(phone)
+  
+  
