@@ -144,13 +144,12 @@ a {
     margin-bottom: 20px;
 }
 footer{
+     
     width: 100%;
     height: 10%;
    background-color:#f2f2f2;
-   position:fixed;
-   bottom:0;
-
-
+   position: fixed;
+   bottom: 0;
 }
 .ftr-1{
     height: 50%;

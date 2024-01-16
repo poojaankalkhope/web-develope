@@ -89,8 +89,11 @@ h1{
     /*: 1px solid black;*/
 }
 .divider {
-    margin: 15px 0;
-    position: relative;
+    display: flex;
+
+}
+.bt-line{
+ line-height: 1px solid grey;
 }
 
 span {
