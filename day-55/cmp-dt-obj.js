@@ -8,3 +8,14 @@ if(date1 < date2){
     console.log(`${date1} is equal to  ${date2}`)
 }
  
+const fruits=['mango','banana', 'grapes','papaya','apple','abc']
+
+const slice= fruits.slice(2,4)
+const splice = fruits.splice(1,4)
+console.log(fruits)
+console.log(slice)
+console.log(splice)
+
+
+
+ 
