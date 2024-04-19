@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome admin Page</title>
+    <link rel="stylesheet" href="customer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wcl-ad">
+                <ul class="list">
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+                <span class="span-1"> Welcome Admin</span>
+            </div>
+            <div class="dt-icon">
+                <h2> 2022-01-01</h2>
+                <img src="./img/power-icon.jpg" alt="power-icon" class="img">
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="menu">
+            <button class="bl"> Bill</button>
+
+            <button class="dropdown-c"> Customers
+                <select name="Customer" id="Customer" class="dropdown-c1">
+                    <option value="New Customer">
+                        <a href=""> <button> New Customer</button> </a>
+                    </option>
+                    <option value="Customer Details"> Customer Details </option>
+                </select>
+            </button>
+
+            <button class="dropdown-a"> Analytic
+                <select name="Customer" id="Customer" class="dropdown-a1">
+                    <option value="Monthly Sell"> Monthly Sell </option>
+                    <option value="Product Sell"> Product Sell </option>
+                </select>
+            </button>
+        </div>
+        <div class="info">
+            <div class="head">
+                <div>
+                    <h1> Customers</h1>
+                </div>
+                <div class="nw-cu">
+                    <a href="./nw-cus.html"> <span class="span-2"> New Customer </span> </a>
+                    <input type="button" value=" Search By Mobile ">
+                </div>
+            </div>
+
+            <table id="customerTable">
+                <thead>
+                    <tr>
+                        <th>Sr</th>
+                        <th>Mobile</th>
+                        <th>Name</th>
+                        <th>DOB</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                      <!-- <button onclick="hi()"></button> -->
+
+                </tbody>
+
+            </table>
+
+ 
+    </main>
+    <script src="./customer.js"></script>
+</body>
+
+</html>
