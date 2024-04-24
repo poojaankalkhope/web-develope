@@ -52,8 +52,17 @@
                     <h1> Customers</h1>
                 </div>
                 <div class="nw-cu">
-                    <a href="./nw-cus.html"> <span class="span-2"> New Customer </span> </a>
-                    <input type="button" value=" Search By Mobile ">
+                    <span class="span-2" onclick="editButton()"> New Customer</span>
+                        
+
+                    <input type="number" placeholder=" Search By Mobile"  id="mobileNumberInput" class="srch" >
+                   <ul id="hiddenList" style="display: none;">
+                    <li> 9876543211</li>
+                    <li>  8765432112</li>
+                    <li> 5432112345 </li>
+                </ul>
+ 
+
                 </div>
             </div>
 
@@ -65,16 +74,17 @@
                         <th>Name</th>
                         <th>DOB</th>
                         <th>Action</th>
+
                     </tr>
                 </thead>
                 <tbody>
-                      <!-- <button onclick="hi()"></button> -->
-
+                    <!-- <button onclick="hi()"></button> -->
+                     
                 </tbody>
 
             </table>
 
- 
+
     </main>
     <script src="./customer.js"></script>
 </body>

@@ -1,16 +1,34 @@
 const tbody = document.querySelector(' #customerTable tbody');
 
-const custs = [
+   // Serach Text
+  document.getElementById("mobileNumberInput").addEventListener("input", function() {
+    var input = this.value.trim();
+    var hiddenList = document.getElementById("hiddenList");
+
+    if (input !== '') {
+        hiddenList.style.display = 'block';
+    } else {
+        hiddenList.style.display = 'none';
+    }
+});
+
+ 
+
+ 
+  const custs = [ 
     {id:1, mobile:9876543211 , name:'abc',dob:'2000-01-01',},
-    {id:2, mobile: 87654321112, name:'pqr',dob:'2002-01-01',},
-    {id:3, mobile:5432112345 , name:'lmn',dob:'1998-01-01',}
+    {id:2, mobile: 8765432112, name:'pqr',dob:'2002-01-01',},
+    {id:3, mobile: 5432112345 , name:'lmn',dob:'1998-01-01',}
 
    ]
-   //const hu = () =>{
-    // console.log('Button Clicked')
-   // }
+   
+    // Edit Button
+ function editButton(){
+    window.location.href='../new-customer/new-customer.html'
+  
+}
 
-
+   // Delete Button
 const onDel = (id) => {
 
     console.log(`Delete Called ${id}`)
@@ -33,7 +51,7 @@ function beginersWay() {
     populateTable()
 
 }
-
+     
 function deleteRowById(id) {
     console.log(`Id ${id}`)
     const index =custs.findIndex(cst => cst.id === id);
@@ -59,8 +77,9 @@ function populateTable() {
     <td> ${name} </td>
     <td> ${dob} </td>
     <td> 
-        <button>Edit</button>
-         <button onclick="deleteRowById(${id})">Delete</button> 
+     
+         <button onclick=editButton()> edit </button> 
+         <button onclick="deleteRowById(${id})">  Delete </button> 
      </td>`
 
 
@@ -75,4 +94,5 @@ function clearTable() {
 
 }
 populateTable()
+
  

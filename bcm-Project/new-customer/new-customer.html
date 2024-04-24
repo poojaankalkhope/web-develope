@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> New Customer</title>
+    <link rel="stylesheet" href="new-customer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wcl-ad">
+                <ul class="list">
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+                <span class="span-1"> Welcome Admin</span>
+            </div>
+            <div class="dt-icon">
+                <h2> 2022-01-01</h2>
+                <img src="img/power-icon.jpg" alt=" power-icon" class="img">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="menu">
+            <button class="bl"> Bill</button>
+
+            <button class="dropdown-c"> Customers
+                <select name="Customer" id="Customer" class="dropdown-c1">
+                    <option value="New Customer"> New Customer </option>
+                    <option value="Customer Details">Customer Details </option>
+                </select>
+            </button>
+            <button class="dropdown-a"> Analytic
+                <select name="Analytic" id="Analytic" class="dropdown-a1">
+                    <option value=" "> </option>
+                    <option value=" "> </option>
+                </select> </button>
+        </div>
+
+        <div class="info">
+            <div>
+                <h1> New Customer</h1>
+            </div>
+            <form class="info-box">
+                <div class="input-1 ">
+                    <label> Name</label>
+                    <input type="name" placeholder="Jiara Martins"  onblur="validateName(this)">
+                    <span class="error" style="color: red";> </span>
+                </div>
+                <div class="input-1">
+                    <label> Email</label>
+                    <input type="text" placeholder="hello@reallygreatsite.com"  onblur="isValidateEmail(this)">
+                    <span class="error" style="color: red;"></span>
+                </div>
+                <div class="input-1">
+                    <label> Mobile</label>
+                    <input type="number" value="9056453452" readonly/>
+                    <span class="error"></span>
+                </div>
+                <div class="input-1">
+                    <label> DATE OF BIRTH </label>
+                    <input type="date" id="datebirth" placeholder="DD-MM-YYYY" class="select-1">
+                    <span class="error"></span>
+                </div>
+
+            </form>
+            <div class="blk-bt">
+                <input type="button" value="CREATE" onclick="formSubmit()" class="blk-bt-1">
+            </div>
+        </div>
+    </main> 
+
+<script src="./new-customer.js"></script>
+    
+ </body>
+ </html>
+
+  
