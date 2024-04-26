@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customer Details </title>
+    <link rel="stylesheet" href="customer-dt.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wcl-ad">
+                <ul class="list">
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+                <span class="span-1"> Welcome Admin</span>
+            </div>
+            <div class="dt-icon">
+                <h2 id="dateUpdate">  </h2>
+                <img src="img/power-icon.jpg" alt=" power-icon" class="img">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="menu">
+            <button class="bl"> Bill</button>
+
+            <button class="dropdown-c"> Customers
+                <select name="Customer" id="Customer" class="dropdown-c1">
+                    <option value="New Customer"> New Customer </option>
+                    <option value="Customer Details">Customer Details </option>
+                </select>
+            </button>
+            <button class="dropdown-a"> Analytic
+                <select name="Analytic" id="Analytic" class="dropdown-a1">
+                    <option value=" "> </option>
+                    <option value=" "> </option>
+                </select>
+            </button>
+
+        </div>
+
+        <div class="info">
+            <div>
+                <h1>Customer Details</h1>
+            </div>
+            <form class="info-box1">
+                <div class="grid-item-1 grid-item-01"> NAME</div>
+                <div class="grid-item-1 grid-item-02" id="cstNm"> </div>
+                <div class="grid-item-1 grid-item-3"> EMAIL </div>
+                <div class="grid-item-1 grid-item-4" id="cstEm"> </div>
+                <div class="grid-item-1 grid-item-5"> MOBILE</div>
+                <div class="grid-item-1 grid-item-6" id="cstMb"> </div>
+                <div class="grid-item-1 grid-item-7"> DOB </div>
+                <div class="grid-item-1 grid-item-8" id="cstDob"> </div>
+            </form>
+            <div class="bt-line">
+                <hr>
+            </div>
+
+            <table id="customerTable">
+                <thead>
+                    <tr>
+                        <th>Sr </th>
+                        <th> Bill </th>
+                        <th> Date</th>
+                        <th> Amount </th>
+                        <th> Method</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                </tbody>
+
+            </table>
+
+            <div>
+                <div class="ft bill-no" onclick="billPage()"> Click Here to All Transactions</div>
+            </div>
+    </main>
+    <script src="./customer-dt.js"></script>
+</body>
+
+</html>

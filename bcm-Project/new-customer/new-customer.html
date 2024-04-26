@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,7 +20,7 @@
                 <span class="span-1"> Welcome Admin</span>
             </div>
             <div class="dt-icon">
-                <h2> 2022-01-01</h2>
+                <h2 id="dateUpdate">  </h2>
                 <img src="img/power-icon.jpg" alt=" power-icon" class="img">
             </div>
         </nav>
@@ -49,18 +49,18 @@
             <form class="info-box">
                 <div class="input-1 ">
                     <label> Name</label>
-                    <input type="name" placeholder="Jiara Martins"  onblur="validateName(this)">
-                    <span class="error" style="color: red";> </span>
+                    <input type="name" placeholder="Jiara Martins" onblur="validateName(this)">
+                    <span class="error" style="color: red" ;> </span>
                 </div>
                 <div class="input-1">
                     <label> Email</label>
-                    <input type="text" placeholder="hello@reallygreatsite.com"  onblur="isValidateEmail(this)">
+                    <input type="text" placeholder="hello@reallygreatsite.com" onblur="isValidateEmail(this)">
                     <span class="error" style="color: red;"></span>
                 </div>
                 <div class="input-1">
                     <label> Mobile</label>
-                    <input type="number" value="9056453452" readonly/>
-                    <span class="error"></span>
+                    <input type="number" placeholder="9056453452" onblur="isValidateMobileNo(this)">
+                    <span class="error" style="color: red;"></span>
                 </div>
                 <div class="input-1">
                     <label> DATE OF BIRTH </label>
@@ -73,11 +73,10 @@
                 <input type="button" value="CREATE" onclick="formSubmit()" class="blk-bt-1">
             </div>
         </div>
-    </main> 
+    </main>
 
-<script src="./new-customer.js"></script>
-    
- </body>
- </html>
+    <script src="./new-customer.js"></script>
 
-  
+</body>
+
+</html>

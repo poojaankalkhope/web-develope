@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bill </title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wcl-ad">
+                <ul class="list">
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+                <span class="span-1"> Welcome Admin</span>
+            </div>
+            <div class="dt-icon">
+                <h2 id="dateUpdate"> </h2>
+                <img src="img/power-icon.jpg" alt=" power-icon" class="img">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="menu">
+            <button class="bl dropdown-b"> Bill
+                <select name="Bill" id="Bill" class="dropdown-b1">
+                    <option value="New Bill"> New Bill</option>
+                    <option value=" Bill Details"> Bill Details</option>
+                </select>
+            </button>
+
+            <button class="dropdown-c"> Customers
+                <select name="Customer" id="Customer" class="dropdown-c1">
+                    <option value="New Customer"> New Customer </option>
+                    <option value="Customer Details">Customer Details </option>
+                </select>
+            </button>
+            <button class="dropdown-a"> Analytic
+                <select name="Analytic" id="Analytic" class="dropdown-a1">
+                    <option value=" Monthly Sell"> Monthly Sell</option>
+                    <option value=" Product Sell"> Product Sell</option>
+                </select>
+            </button>
+
+        </div>
+
+        <div class="info">
+            <div class="head">
+                <div>
+                    <h1> Bill </h1>
+                </div>
+                <div class="nw-bl">
+                    <span class="nw-bl-1 bill-no" onclick="newbill()"> New Bill</span>
+                </div>
+            </div>
+            <fieldset class="table-1">
+                <legend> Search Filter</legend>
+                <input type="text" placeholder="bill Number">
+                <input type="text" placeholder="Mobile">
+                <input type="text" placeholder="Amount">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Counter">
+                <div class="srch-bt">
+                    <input type="button"  value="SEARCH" class="srch-bt-1">
+                </div>
+            </fieldset>
+            <form class="table-2">
+                <div> </div>
+                <input type="text" placeholder="bill Number">
+                <input type="text" placeholder="Mobile">
+                <input type="text" placeholder="Amount">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Counter">
+                <input type="text" placeholder="Cashier">
+                
+            </form>
+
+            <table id="billTable">
+                <thead >
+                    <tr class="tableBill">
+                        <td class="grid-item-3 title"> Sr</td>
+                        <td class="grid-item-3 title"> Bill</td>
+                        <td class="grid-item-3 title"> Mobile</td>
+                        <td class="grid-item-3 title"> Amount</td>
+                        <td class="grid-item-3 title"> Date </td>
+                        <td class="grid-item-3 title"> Counter</td>
+                        <td class="grid-item-3 title"> Cashier</td>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </main>
+    <script src="./bill.js"></script>
+</body>
+
+</html>

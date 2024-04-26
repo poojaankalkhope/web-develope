@@ -20,7 +20,7 @@
                 <span class="span-1"> Welcome Admin</span>
             </div>
             <div class="dt-icon">
-                <h2> 2022-01-01</h2>
+                <h2 id="dateUpdate">  </h2>
                 <img src="./img/power-icon.jpg" alt="power-icon" class="img">
             </div>
         </nav>
@@ -53,15 +53,8 @@
                 </div>
                 <div class="nw-cu">
                     <span class="span-2" onclick="editButton()"> New Customer</span>
-                        
 
-                    <input type="number" placeholder=" Search By Mobile"  id="mobileNumberInput" class="srch" >
-                   <ul id="hiddenList" style="display: none;">
-                    <li> 9876543211</li>
-                    <li>  8765432112</li>
-                    <li> 5432112345 </li>
-                </ul>
- 
+                    <input id="myInput" type="text" name="" placeholder="Search By Mobile " class="srch" onkeyup="searchNm()">
 
                 </div>
             </div>
@@ -77,9 +70,9 @@
 
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="myTable">
                     <!-- <button onclick="hi()"></button> -->
-                     
+
                 </tbody>
 
             </table>

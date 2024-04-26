@@ -23,7 +23,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .dt-icon {
@@ -33,7 +32,6 @@ nav {
     align-items: center;
     border: none;
     margin-right: 20px;
-
 
 }
 
@@ -54,7 +52,7 @@ h2 {
 
 main {
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
 
 .container {
@@ -62,7 +60,7 @@ main {
 }
 
 .menu {
-    width: 20%;
+    width: 25%;
     height: 100%;
     background-color: rgba(152, 148, 148, 0.3);
     display: flex;
@@ -82,28 +80,42 @@ button {
     border: none;
     font-size: large;
     text-align: start;
-
-
 }
 
 .bl {
     margin-top: 35px;
 }
 
-.dropdown-c {
+.dropdown-b {
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: black;
 }
 
-.dropdown-c1 {
+.dropdown-b1 {
     width: 10%;
     height: 40%;
     background-color: black;
     color: white;
     border: none;
     font-size: 1.25rem;
+}
+
+.dropdown-c {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.dropdown-c1 {
+    width: 10%;
+    height: 40%;
+    background-color: rgba(152, 148, 148, 0.3);
+    color: white;
+    font-size: 1.25rem;
+    border: none;
 }
 
 .dropdown-a {
@@ -122,84 +134,144 @@ button {
 }
 
 .info {
-    width: 70%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    margin-left: 30px;
+    margin-left: 50px;
+
 }
 
 .head {
     width: 100%;
-    height: 20%;
+    height: 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 h1 {
-    width: 50%;
-    width: 50%;
+    width: 100%;
+    height: 50%;
     font-size: 2.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+    font-weight: bold;
 }
 
-input {
-    width: 40%;
-    height: 60%;
-    font-size: small;
-    background-color: white;
-    color: black;
-    border: 1px solid gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black;
-}
-
-.srch {
-    width: 50%;
-    height: 60%;
-}
-
-.srch-1 {
-    width: 80%;
-    height: 60%;
-}
-
-.nw-cu {
-    width: 35%;
-    height: 50%;
-    align-items: center;
+.nw-bl {
+    width: 10%;
+    height: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    align-items: end;
 }
 
-.span-2 {
-    text-decoration: underline;
+.nw-bl-1 {
+    color: black;
+}
+
+.table-1 {
+    width: 97%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: 25% 25% 26%;
+    justify-content: start;
+    align-items: end;
+
+}
+
+.table-1 input {
+    width: 60%;
+    height: 70%;
+    justify-content: space-around;
+}
+
+.grid-item {
+    width: 80%;
+    height: 65%;
+    border: 1px solid gray;
+    gap: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.srch-bt {
+    width: 70%;
+    height: 100%;
+    gap: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.srch-bt-1 {
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.span-2:hover {
-    text-decoration: underline cadetblue;
-    background-color: azure;
-
-}
-
-.str {
+.table-2 {
     width: 100%;
-    height: 50%;
-    display: flex;
-
+    height: 30%;
+    display: grid;
+    grid-template-columns: 15% 13% 13% 13% 13% 13% 13%;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 10px;
+    
 }
 
-a {
+.table-2 input {
+    width: 90%;
+    height: 50%;
+}
+
+.grid-item-2 {
+    width: 90%;
+    height: 45%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.grid-item-3 {
+    width:100%;
+    height: 100%;
+    border: 1.5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    background-color: rgba(152, 148, 148, 0.3);
+}
+
+.tx-un {
+    text-decoration: underline;
+}
+
+.lnk {
     color: black;
 }
 
+
+
 table {
     width: 100%;
+    height: 100%;
     border-collapse: collapse;
+
 }
 
 th,
@@ -212,38 +284,27 @@ td {
 
 th {
     background-color: #f2f2f2;
+
 }
 
-th:hover {
-    background-color: #f5f5f5;
-}
-
-
-#customerTable tbody {
-    
-}
-
-
-.img-1 {
-    width: 5%;
-    height: 20%;
+.tableBill {
     display: flex;
-    justify-content: center;
+}
+
+#billTable tbody,
+.row {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+
+.bill-no {
+    text-decoration: underline;
 
 }
-#result {
-    border: 1px dotted #ccc;
-    padding: 3px;
-  }
-  #result ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  #result ul li {
-    padding: 5px 0;
-  }
-  #result ul li:hover {
-    background: #eee;
-  } 
+
+.bill-no:hover {
+    text-decoration: underline cadetblue;
+    background-color: azure;
+}
