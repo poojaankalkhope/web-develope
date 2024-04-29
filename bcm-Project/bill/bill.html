@@ -20,7 +20,7 @@
                 <span class="span-1"> Welcome Admin</span>
             </div>
             <div class="dt-icon">
-                <h2 id="dateUpdate"> </h2>
+                <h3 id="dateUpdate"> </h3>
                 <img src="img/power-icon.jpg" alt=" power-icon" class="img">
             </div>
         </nav>
@@ -71,12 +71,12 @@
             </fieldset>
             <form class="table-2">
                 <div> </div>
-                <input type="text" placeholder="bill Number">
-                <input type="text" placeholder="Mobile">
-                <input type="text" placeholder="Amount">
-                <input type="text" placeholder="Date">
-                <input type="text" placeholder="Counter">
-                <input type="text" placeholder="Cashier">
+                <input id="myInput" type="text" placeholder="bill Number" onkeyup="billNumber()">
+                <input id="myNumber"  type="text" placeholder="Mobile" onkeyup="mobileNumber()">
+                <input id="myAmount" type="text" placeholder="Amount" onkeyup="amount()">
+                <input id="myDate"  type="text" placeholder="Date" onkeyup="dates()">
+                <input id="myCounter"  type="text" placeholder="Counter" onkeyup="counter()">
+                <input id="myCashier"  type="text" placeholder="Cashier" onkeyup="cashier()">
                 
             </form>
 
@@ -93,7 +93,7 @@
                     </tr>
 
                 </thead>
-                <tbody>
+                <tbody id="myTable">
 
                 </tbody>
 

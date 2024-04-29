@@ -28,7 +28,8 @@ const searchNm = () => {
 const custs = [
     { id: 1, mobile: 9876543211, name: 'abc', dob: '2000-01-01', },
     { id: 2, mobile: 8765432112, name: 'pqr', dob: '2002-01-01', },
-    { id: 3, mobile: 5432112345, name: 'lmn', dob: '1998-01-01', }
+    { id: 3, mobile: 5432112345, name: 'lmn', dob: '1998-01-01', },
+    { id: 4, mobile: 9832112345, name: 'stu', dob: '1995-01-01', }
 
 ]
 
