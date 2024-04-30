@@ -49,10 +49,12 @@ function newbill() {
 
 }
 
+
+
 // for billnumber
 
 const billNumber= () => {
-    const filter = document.getElementById('').value;
+    const filter = document.getElementById('myInput').value;
 
     const mytable = document.getElementById('myTable')
 
