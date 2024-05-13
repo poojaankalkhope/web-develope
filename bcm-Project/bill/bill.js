@@ -1,5 +1,5 @@
 const tbody = document.querySelector('#billTable tbody');
-console.log(tbody)
+ 
 
 // dateUpdate
 const date= new Date();
@@ -16,7 +16,7 @@ function populateTable() {
 
         const { id, bill, mobile, amount, date, counter, cashier } = cuBill
 
-        row.innerHTML =   `<tr>
+        row.innerHTML =   `
         <td>${id}</td>
         <td onclick="billDt()" class="bill-no"> ${bill} </td>
         <td> ${mobile} </td> 
@@ -24,7 +24,7 @@ function populateTable() {
          <td> ${date} </td>
          <td> ${counter} </td>
          <td> ${cashier} </td>
-         </tr> `
+         `
 
 
         row.id = id

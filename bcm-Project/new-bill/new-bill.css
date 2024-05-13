@@ -1,0 +1,414 @@
+html,
+body {
+    width: 90vw;
+    height: 90vh;
+}
+
+nav {
+    width: 100%;
+    height: 5%;
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    list-style-type: circle;
+}
+
+.wcl-ad {
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dt-icon {
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.span-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h2 {
+    font-weight: normal;
+
+}
+
+.img {
+    width: 20%;
+    height: 50%;
+}
+
+main {
+    width: 100%;
+    height: 95%;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(152, 148, 148, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.button-1 {
+    width: 85%;
+    height: 10%;
+    margin-right: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: large;
+    text-align: start;
+}
+
+.bl {
+    margin-top: 35px;
+}
+
+.dropdown-b {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.dropdown-b1 {
+    width: 10%;
+    height: 40%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.dropdown-c {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.dropdown-c1 {
+    width: 10%;
+    height: 40%;
+    background-color: rgba(152, 148, 148, 0.3);
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+}
+
+.dropdown-a {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.dropdown-a1 {
+    width: 10%;
+    height: 40%;
+    background-color: rgba(152, 148, 148, 0.3);
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+.head {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    width: 100%;
+    height: 50%;
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.table-1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mb-srch {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.mb-nu {
+    width: 30%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.mb {
+    width: 80%;
+    height: 60%;
+}
+
+.srch {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.srch-bt {
+    width: 40%;
+    height: 70%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.date-tm {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+}
+
+.table-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center:
+}
+
+.item {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.input-1 {
+    width: 65%;
+    height: 60%;
+    border: 1px solid gray;
+}
+
+.item-add {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.add-bt {
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid grey;
+}
+
+.tableBill {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+td {
+    width: 220px;
+    padding: 8px;
+    text-align: center;
+}
+
+tr {
+    width: 80%;
+    height: 30%;
+    border: 1px solid gray;
+}
+
+#billTable tbody {
+
+    width: 100%;
+    height: 100%;
+    display: inline-table;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid gray;
+}
+
+.img {
+    width: 20%;
+    height: 60%;
+    background-color: white;
+}
+
+.grid-item {
+    width: 100%;
+    height: 90%;
+    border: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    background-color: rgba(152, 148, 148, 0.3);
+}
+
+.gtotal{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    background-color: rgba(152, 148, 148, 0.3);
+}
+.blanks{
+    background-color: white;
+}
+.table-4{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.tableh{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.input-2 {
+    width: 70%;
+    height: 90%;
+    border: 1px solid gray;
+}
+
+.grid-item-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+.table-5 {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5px;
+    border: 1px solid red;
+}
+
+.dropdown-p {
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.dropdown-p1 {
+    width: 10%;
+    height: 30%;
+    border: none;
+    font-size: 1.25rem;
+}
+
+
+.button-cash {
+    width: 30%;
+    height: 30%;
+    border: none;
+    font-size: large;
+    text-align: start;
+}
+
+.dropdown-cash {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-cash1 {
+    width: 10%;
+    height: 100%;
+    color: black;
+    border: none;
+    font-size: 1.25rem;
+}
+
+
+.ck-bt {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
