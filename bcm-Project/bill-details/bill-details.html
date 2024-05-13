@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bill Details</title>
+    <link rel="stylesheet" href="bill-details.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="wcl-ad">
+                <ul class="list">
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+                <span class="span-1"> Welcome Admin</span>
+            </div>
+            <div class="dt-icon">
+                <h3 id="dateUpdate"> </h3>
+                <img src="img/power-icon.jpg" alt=" power-icon" class="img">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="menu">
+            <button class="bl dropdown-b"> Bill
+                <select name="Bill" id="Bill" class="dropdown-b1">
+                    <option value="New Bill"> New Bill</option>
+                    <option value=" Bill Details"> Bill Details</option>
+                </select>
+            </button>
+
+            <button class="dropdown-c"> Customers
+                <select name="Customer" id="Customer" class="dropdown-c1">
+                    <option value="New Customer"> New Customer </option>
+                    <option value="Customer Details">Customer Details </option>
+                </select>
+            </button>
+            <button class="dropdown-a"> Analytic
+                <select name="Analytic" id="Analytic" class="dropdown-a1">
+                    <option value=" Monthly Sell"> Monthly Sell</option>
+                    <option value=" Product Sell"> Product Sell</option>
+                </select>
+            </button>
+
+        </div>
+
+        <div class="info">
+            <div class="head">
+                <h1> Bill Details </h1>
+            </div>
+            <div class="table-1">
+                <div class="bl-py">
+                    <label> BILL #: 2313213213</label>
+                    <label>MOBILE: <span class="link" onclick="custdt()"> 9876532211</span> </label>
+
+                    <button class="dropdown-p"> PAYMENT:
+                        <select name="payment mode" id="payment" class="dropdown-p1">
+                            <option value="CASH"> CASH</option>
+                            <option value="UPI">UPI</option>
+                            <option value="UPI">CARD</option>
+                        </select>
+                    </button>
+
+                </div>
+                <div class="date-tm">
+                    <label id="dateUpdate1"> </label>
+                    <button class="dropdown-cash button-cash"> CASHIER:
+                        <select name="CASHIER" id="CASHIER" class="dropdown-cash1">
+                            <option value="abc"> abc</option>
+                            <option value="pqr"> pqr</option>
+                            <option value="lmn">lmn</option>
+                            <option value="xyz">xyz</option>
+                            <option value="efg">efg</option>
+                        </select>
+                    </button>
+
+                    <button class="dropdown-cash button-cash"> COUNTER:
+                        <select name="COUNTER" id="COUNTER" class="dropdown-cash1">
+                            <option value="1"> 1</option>
+                            <option value="12">2</option>
+                            <option value="2">5</option>
+                            <option value="5">7</option>
+                            <option value="10">10</option>
+                        </select>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+
+            <table id="newBillTable">
+                <thead>
+                    <tr>
+                        <td class="grid-item title"> Sr</td>
+                        <td class="grid-item title"> Item</td>
+                        <td class="grid-item title"> Price</td>
+                        <td class="grid-item title">Quantity</td>
+                        <td class="grid-item title"> Total</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+            </table>
+                <table>
+                    <tr class="gtotal">
+                        <th class="tableh">Total Price </th>
+                        <td class="table-4"> <input type="text" value="" class="input-2" id="TOTALPRICE"> </td>
+                         
+                    </tr>
+
+                    <tr class="gtotal">
+                        <th class="tableh"> GST (18%) </th>
+                        <td class="table-4"> <input type="text" value="" class="input-2" id="GST"> </td>
+                      
+                    </tr>
+
+                    <tr class="gtotal">
+                        <th class="tableh"> Grand Total </th>
+                        <td class="table-4"> <input type="text" value="" class="input-2" id="GRANDTOTAL"> </td>
+                       
+                    </tr>
+                </table>
+           
+
+
+
+    </main>
+    <script src="./bill-details.js"></script>
+</body>
+
+</html>
