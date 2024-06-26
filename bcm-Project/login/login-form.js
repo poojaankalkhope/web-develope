@@ -1,4 +1,4 @@
-const lgnFrm = document.getElementById('lgnFrm')
+ const lgnFrm = document.getElementById('lgnFrm')
 
 export function handleLogin(e) {
     e.preventDefault()
